@@ -32,11 +32,11 @@ In this repository, you'll find a series of DevOps projects designed to improve 
 
 2.  [**Terraform State Management with AWS Backend**](./Part_I/02-Terraform-State-Management-AWS-Backend/README.md)
 
-    - Define Terraform configurations to provision AWS infrastructure components (e.g., EC2 instances, VPC, subnets).
-    - Execute Terraform commands to apply the configurations and provision the infrastructure.
+    - Creating backend with s3 and dynamodb table.
+    - State Locking.
     - Practice managing Terraform state and performing infrastructure changes.
 
-3.  **Configuration Management with Ansible:**
+3.  [**Configuration Management with Ansible**](./Part_I/03-Configuration-Management-with-Ansible/README.md)
 
     - Write Ansible playbooks to configure and manage software packages on remote servers.
     - Practice tasks like installing packages, managing files, and restarting services using Ansible modules.
@@ -58,7 +58,7 @@ In this repository, you'll find a series of DevOps projects designed to improve 
 
 ### Part II: Medium
 
-6.  ...
+1.  [Configuration Management and Infrastructure Orchestration with Ansible and Terraform](./Part_II/01-Configuration-Management-Infrastructure-Ansible-Terraform/README.md)
 
 ### Part III: Hard
 
