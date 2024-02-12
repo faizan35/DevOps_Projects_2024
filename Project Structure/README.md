@@ -1,4 +1,4 @@
-# Project Name
+# Project Name here
 
 One line about the project.
 
@@ -16,13 +16,11 @@ Few explaining about the project.
 - Only tools names
 - in points
 
-## Steps to Perform this Project
+## Tasks
 
-### Step 1: abc..
-
-### Step 2: abc..
-
-### Step 3: abc..
+1.  task that has to be done
+2.  in chronological order
+3.  each in 1 to 2 lines.
 
 ## Additional Notes
 
