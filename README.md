@@ -49,7 +49,7 @@ In this repository, you'll find a series of DevOps projects designed to improve 
     - Practice basic Kubernetes commands like `kubectl apply`, `kubectl get pods`, `kubectl expose`, etc.
     - Explore concepts like Pods, Deployments, Services, and Ingresses in Kubernetes.
 
-5.  Terraform Modules
+5.  [**Terraform Modules**](./Part_I/05-Terraform-Modules/README.md)
 
 ### Part II: Medium
 
