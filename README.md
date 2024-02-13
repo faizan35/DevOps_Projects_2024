@@ -42,19 +42,14 @@ In this repository, you'll find a series of DevOps projects designed to improve 
     - Practice tasks like installing packages, managing files, and restarting services using Ansible modules.
     - Explore concepts like roles, variables, and conditionals in Ansible playbooks.
 
-4.  **Setting Up Basic Monitoring with Prometheus and Grafana:**
+4.  [**Deploying a simple app on Kubernetes cluster**](./Part_I/04-Deploy-simple-app-Kubernetes-cluster/README.md)
 
-    - Deploy Prometheus for monitoring.
-    - Set up Grafana for visualization.
-    - Configure Prometheus to scrape metrics from a simple service (e.g., nginx).
-    - Create basic dashboards in Grafana to visualize the collected metrics.
-
-5.  **Introduction to Kubernetes:**
-
-    - Set up a local Kubernetes cluster using Minikube or Docker Desktop Kubernetes.
+    - Set up a Kubernetes cluster using Kubeadm.
     - Deploy a simple application (e.g., nginx) to the Kubernetes cluster.
     - Practice basic Kubernetes commands like `kubectl apply`, `kubectl get pods`, `kubectl expose`, etc.
     - Explore concepts like Pods, Deployments, Services, and Ingresses in Kubernetes.
+
+5.  Terraform Modules
 
 ### Part II: Medium
 
