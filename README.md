@@ -49,7 +49,12 @@ In this repository, you'll find a series of DevOps projects designed to improve 
     - Practice basic Kubernetes commands like `kubectl apply`, `kubectl get pods`, `kubectl expose`, etc.
     - Explore concepts like Pods, Deployments, Services, and Ingresses in Kubernetes.
 
-5.  [**Terraform Modules**](./Part_I/05-Terraform-Modules/README.md)
+5.  [**User Defined Terraform Modules**](./Part_I/05-Terraform-Modules/README.md)
+
+    - Define Terraform configuration files to provision AWS EC2 instances.
+    - Create a modularized approach by implementing a reusable Terraform module for EC2 instance provisioning.
+    - Provision instances tailored for different environments like development (dev) and production.
+    - Verify the correctness of instance provisioning and validate accessibility post-provisioning.
 
 ### Part II: Medium
 
