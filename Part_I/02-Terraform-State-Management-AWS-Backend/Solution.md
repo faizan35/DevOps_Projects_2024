@@ -99,7 +99,7 @@ resource "aws_instance" "web-project" {
 }
 ```
 
-- Execute this `terraform apply`, this is create **`terraform.tfstate`** file.
+- Execute this `terraform apply`, this creates **`terraform.tfstate`** file.
 - Now append the Backend code, inside the terraform block, outside required_providers block.
 
 ```hcl
