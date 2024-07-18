@@ -1,73 +1,93 @@
 # DevOps Projects
 
-This repository contains a collection of DevOps projects covering various aspects of infrastructure provisioning, deployment automation, monitoring, and more.
+## **Part I: Easy**
 
-## Table of Contents
+#### 1. [**Dockerized Web Application Deployment with Jenkins**](./Part_I/01-Dockerized-App-Deployment-Jenkins/README.md)
 
-- [DevOps Projects](#devops-projects)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Projects](#projects)
-    - [Part I: Easy](#part-i-easy)
-    - [Part II: Medium](#part-ii-medium)
-    - [Part III: Hard](#part-iii-hard)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
+- Get code from Git repository.
+- Build Docker image for the web application.
+- Push the Docker image to Docker Hub.
+- Deploy the application by pulling the Docker image from Docker Hub.
+- Trigger Jenkins pipeline automatically upon new commits to the Git repository.
 
-## Introduction
+#### 2. [**Terraform State Management with AWS Backend**](./Part_I/02-Terraform-State-Management-AWS-Backend/README.md)
 
-In this repository, you'll find a series of DevOps projects designed to improve your understanding and proficiency in various DevOps tools and practices. These projects are divided into three parts: Part I (Easy), Part II (Medium), and Part III (Hard), each increasing in complexity and depth.
+- Creating backend with s3 and dynamodb table.
+- State Locking.
+- Practice managing Terraform state and performing infrastructure changes.
 
-## Projects
+#### 3. [**Configuration Management with Ansible**](./Part_I/03-Configuration-Management-with-Ansible/README.md)
 
-### Part I: Easy
+- Write Ansible playbooks to configure and manage software packages on remote servers.
+- Practice tasks like installing packages, managing files, and restarting services using Ansible modules.
+- Explore concepts like roles, variables, and conditionals in Ansible playbooks.
 
-1.  [**Dockerized Web Application Deployment with Jenkins**](./Part_I/01-Dockerized-App-Deployment-Jenkins/README.md)
+#### 4. [**Deploying a simple app on Kubernetes cluster**](./Part_I/04-Deploy-simple-app-Kubernetes-cluster/README.md)
 
-    - Get code from Git repository.
-    - Build Docker image for the web application.
-    - Push the Docker image to Docker Hub.
-    - Deploy the application by pulling the Docker image from Docker Hub.
-    - Trigger Jenkins pipeline automatically upon new commits to the Git repository.
+- Set up a Kubernetes cluster using Kubeadm.
+- Deploy a simple application (e.g., nginx) to the Kubernetes cluster.
+- Practice basic Kubernetes commands like `kubectl apply`, `kubectl get pods`, `kubectl expose`, etc.
+- Explore concepts like Pods, Deployments, Services, and Ingresses in Kubernetes.
 
-2.  [**Terraform State Management with AWS Backend**](./Part_I/02-Terraform-State-Management-AWS-Backend/README.md)
+#### 5. [**User Defined Terraform Modules**](./Part_I/05-Terraform-Modules/README.md)
 
-    - Creating backend with s3 and dynamodb table.
-    - State Locking.
-    - Practice managing Terraform state and performing infrastructure changes.
+- Define Terraform configuration files to provision AWS EC2 instances.
+- Create a modularized approach by implementing a reusable Terraform module for EC2 instance provisioning.
+- Provision instances tailored for different environments like development (dev) and production.
+- Verify the correctness of instance provisioning and validate accessibility post-provisioning.
 
-3.  [**Configuration Management with Ansible**](./Part_I/03-Configuration-Management-with-Ansible/README.md)
+---
 
-    - Write Ansible playbooks to configure and manage software packages on remote servers.
-    - Practice tasks like installing packages, managing files, and restarting services using Ansible modules.
-    - Explore concepts like roles, variables, and conditionals in Ansible playbooks.
+## **Part II: DevOps projects where Python scripting can be used for automation**
 
-4.  [**Deploying a simple app on Kubernetes cluster**](./Part_I/04-Deploy-simple-app-Kubernetes-cluster/README.md)
+#### 1. **Automated Infrastructure Provisioning with Terraform and Python:**
 
-    - Set up a Kubernetes cluster using Kubeadm.
-    - Deploy a simple application (e.g., nginx) to the Kubernetes cluster.
-    - Practice basic Kubernetes commands like `kubectl apply`, `kubectl get pods`, `kubectl expose`, etc.
-    - Explore concepts like Pods, Deployments, Services, and Ingresses in Kubernetes.
+- **Description:** Use Python scripts to automate the creation and management of infrastructure using Terraform.
+- **Key Tasks:** Write Python scripts to generate Terraform configuration files, execute Terraform commands, and handle post-deployment verification.
 
-5.  [**User Defined Terraform Modules**](./Part_I/05-Terraform-Modules/README.md)
+#### 2. **CI/CD Pipeline Automation with Jenkins and Python:**
 
-    - Define Terraform configuration files to provision AWS EC2 instances.
-    - Create a modularized approach by implementing a reusable Terraform module for EC2 instance provisioning.
-    - Provision instances tailored for different environments like development (dev) and production.
-    - Verify the correctness of instance provisioning and validate accessibility post-provisioning.
+- **Description:** Develop Python scripts to automate the setup and management of Jenkins pipelines.
+- **Key Tasks:** Create scripts to define Jenkins jobs, configure build triggers, and manage build artifacts.
 
-### Part II: Medium
+#### 3. **Automated Cloud Resource Management:**
 
-1.  [Configuration Management and Infrastructure Orchestration with Ansible and Terraform](./Part_II/01-Configuration-Management-Infrastructure-Ansible-Terraform/README.md)
+- **Description:** Use Boto3 for AWS, Azure SDK for Python, and Google Cloud Python client libraries to automate cloud resource management.
+- **Key Tasks:** Write scripts to manage EC2 instances, S3 buckets, Azure VMs, Blob storage, GCP Compute Engine instances, and Cloud Storage.
 
-### Part III: Hard
+#### 4. **Automated Monitoring and Alerting Setup:**
 
-11. ...
+- **Description:** Develop Python scripts to automate the setup of monitoring tools like Prometheus and Grafana.
+- **Key Tasks:** Write scripts to configure Prometheus scrape targets, create Grafana dashboards, and set up alerting rules.
 
-## Usage
+#### 5. **Log Management and Analysis:**
 
-Each project directory contains detailed instructions on setting up and running the project. Refer to the README.md file within each project directory for specific guidance.
+- **Description:** Use Python to automate log collection, processing, and analysis.
+- **Key Tasks:** Create scripts to collect logs from various sources, process them (e.g., filter, aggregate), and generate reports or alerts based on log data.
 
-## Contributing
+#### 6. **Configuration Management with Ansible and Python:**
 
-Contributions to this repository are welcome! If you have ideas for new projects, improvements to existing projects, or bug fixes, please feel free to open an issue or submit a pull request.
+- **Description:** Automate configuration management tasks using Ansible and Python.
+- **Key Tasks:** Write custom Ansible modules in Python, develop scripts to run Ansible playbooks, and manage inventory files dynamically.
+
+#### 7. **Container Orchestration with Kubernetes and Python:**
+
+- **Description:** Use Python scripts to automate tasks in a Kubernetes environment.
+- **Key Tasks:** Write scripts to manage Kubernetes objects (pods, services, deployments), automate rollouts and rollbacks, and monitor cluster health.
+
+#### 8. **Automated Backup and Restore:**
+
+- **Description:** Create Python scripts to automate the backup and restore processes for databases and file systems.
+- **Key Tasks:** Write scripts to schedule backups, store backup files in cloud storage, and automate the restore process in case of data loss.
+
+#### 9. **Security Compliance Automation:**
+
+- **Description:** Develop Python scripts to automate security compliance checks and remediation.
+- **Key Tasks:** Write scripts to scan for vulnerabilities, enforce security policies, and automate the application of security patches.
+
+#### 10. **Automated Performance Testing:**
+
+- **Description:** Use Python to automate performance testing of applications.
+- **Key Tasks:** Develop scripts to run load tests using tools like Locust or JMeter, collect performance metrics, and generate performance reports.
+
+## Part III:
