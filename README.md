@@ -38,12 +38,16 @@
 
 ---
 
-## **Part II: DevOps projects where Python scripting can be used for automation**
+## **Part II:**
 
-#### 1. **Automated Infrastructure Provisioning with Terraform and Python:**
+#### [1. **Automated Infrastructure Provisioning with Terraform and Python:**](./Part_II/01-Automated-Infrastructure-Provisioning-Terraform-Python/README.md)
 
 - **Description:** Use Python scripts to automate the creation and management of infrastructure using Terraform.
 - **Key Tasks:** Write Python scripts to generate Terraform configuration files, execute Terraform commands, and handle post-deployment verification.
+
+#### [2. Setting Up a Basic Azure Infrastructure Using Terraform](./Part_II/02-Setting-Basic-Azure-Infrastructure-Using-Terraform/README.md)
+
+---
 
 #### 2. **CI/CD Pipeline Automation with Jenkins and Python:**
 
@@ -91,3 +95,52 @@
 - **Key Tasks:** Develop scripts to run load tests using tools like Locust or JMeter, collect performance metrics, and generate performance reports.
 
 ## Part III:
+
+#### [1. **Multi-Cloud Deployment and Management**](./Part_III/01-Multi-Cloud-Deployment-Management/README.md)
+
+- **Project**: Implement a multi-cloud deployment strategy using Terraform to manage resources across AWS, Azure, and GCP.
+- **Skills**: Multi-cloud architecture, advanced Terraform scripting, cloud provider integrations.
+
+2. **Advanced CI/CD Pipeline with Microservices**:
+
+   - **Project**: Build a CI/CD pipeline for a microservices architecture, incorporating automated testing, security scanning, and canary deployments using tools like Spinnaker or Argo CD.
+   - **Skills**: Microservices orchestration, Spinnaker/Argo CD, automated testing and security.
+
+3. **Service Mesh Implementation**:
+
+   - **Project**: Deploy and manage a service mesh (e.g., Istio or Linkerd) to handle service-to-service communication in a Kubernetes environment.
+   - **Skills**: Service mesh architecture, Istio/Linkerd, Kubernetes networking.
+
+4. **Automated Compliance and Governance**:
+
+   - **Project**: Implement an automated compliance and governance framework using tools like AWS Config, Azure Policy, and HashiCorp Sentinel.
+   - **Skills**: Compliance automation, governance policies, HashiCorp Sentinel.
+
+5. **AI/ML Model Deployment with MLOps**:
+
+   - **Project**: Deploy and manage machine learning models in production using MLOps practices, including model monitoring and automated retraining.
+   - **Skills**: MLOps, model deployment (e.g., Seldon, KFServing), monitoring and retraining pipelines.
+
+6. **Chaos Engineering**:
+
+   - **Project**: Implement chaos engineering practices using tools like Gremlin or Chaos Mesh to test the resilience of your infrastructure and applications.
+   - **Skills**: Chaos engineering, fault injection, resilience testing.
+
+7. **Automated Infrastructure Security**:
+
+   - **Project**: Implement an automated security framework for your infrastructure, including vulnerability scanning, automated patching, and incident response.
+   - **Skills**: Security automation, vulnerability management, incident response automation.
+
+8. **Serverless Data Processing Pipeline**:
+
+   - **Project**: Create a serverless data processing pipeline using AWS Lambda, Azure Functions, or Google Cloud Functions, integrated with cloud-native data services (e.g., AWS S3, Azure Blob Storage, Google Cloud Storage).
+   - **Skills**: Serverless architecture, data processing, cloud-native services.
+
+9. **Distributed Tracing and Monitoring**:
+
+   - **Project**: Implement distributed tracing and monitoring for a microservices architecture using tools like Jaeger or OpenTelemetry.
+   - **Skills**: Distributed tracing, Jaeger/OpenTelemetry, microservices monitoring.
+
+10. **Hybrid Cloud Architecture**:
+    - **Project**: Design and implement a hybrid cloud architecture, integrating on-premises infrastructure with public cloud resources, ensuring seamless operation and management.
+    - **Skills**: Hybrid cloud solutions, on-premises and cloud integration, cloud management tools.
