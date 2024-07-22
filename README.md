@@ -144,3 +144,11 @@
 10. **Hybrid Cloud Architecture**:
     - **Project**: Design and implement a hybrid cloud architecture, integrating on-premises infrastructure with public cloud resources, ensuring seamless operation and management.
     - **Skills**: Hybrid cloud solutions, on-premises and cloud integration, cloud management tools.
+
+---
+
+## How to use this repo
+
+```sh
+git clone https://github.com/faizan35/DevOps_Projects_2024.git
+```
