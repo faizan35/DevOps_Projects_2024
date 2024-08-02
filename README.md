@@ -96,7 +96,7 @@
 
 ## Part III:
 
-#### [1. **Multi-Cloud Deployment and Management**](./Part_III/01-Multi-Cloud-Deployment-Management/README.md)
+#### 1. **Multi-Cloud Deployment and Management**
 
 - **Project**: Implement a multi-cloud deployment strategy using Terraform to manage resources across AWS, Azure, and GCP.
 - **Skills**: Multi-cloud architecture, advanced Terraform scripting, cloud provider integrations.
